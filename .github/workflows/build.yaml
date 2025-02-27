@@ -27,23 +27,20 @@ jobs:
           cp -r fonts/ /usr/share/fonts/Atkinson_Hyperlegible/
           fc-cache -fv
 
+      - name: Install TeX Live
+        run: |
+          sudo apt-get install -y texlive
+          sudo tlmgr init-usertree
+          sudo tlmgr install texlive-lang-german babel
+          
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tinytex: true
-          # uncomment below and fill to pin a version
-          # version: SPECIFIC-QUARTO-VERSION-HERE
 
       - name: Ensure TinyTeX is in PATH
         run: |
           echo "$HOME/.TinyTeX/bin/$(uname -s | tr '[:upper:]' '[:lower:]')" >> $GITHUB_PATH
-
-      - name: Install Babel for German language support
-        run: |
-          tlmgr install texlive-lang-german
-          tlmgr install babel
 
       - name: Render and Publish
         if: github.event_name == 'push'
