@@ -1,26 +1,29 @@
-name: Render and Publish
+name: Build and Publish
 
 on:
   push:
-    branches: main
+    branches:
+      - main
   pull_request:
-    branches: main
+    branches:
+      - main
 
 jobs:
-  CICD:
+  build:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       R_KEEP_PKG_SOURCE: yes
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0
 
       - name: Provide Fonts
         run: |
-          mkdir /usr/share/fonts/Atkinson_Hyperlegible
+          mkdir -p /usr/share/fonts/Atkinson_Hyperlegible
           cp -r fonts/ /usr/share/fonts/Atkinson_Hyperlegible/
           fc-cache -fv
 
@@ -29,16 +32,14 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          # To install LaTeX to build PDF book 
-          tinytex: true 
+          tinytex: true
           # uncomment below and fill to pin a version
           # version: SPECIFIC-QUARTO-VERSION-HERE
 
-       - name: Babel horror
-         run: tlmgr install texlive-lang-german
+      - name: Install Babel for German language support
+        run: tlmgr install texlive-lang-german
 
-
-      - name: Productive - Render and Publish 
+      - name: Render and Publish
         if: github.event_name == 'push'
         uses: quarto-dev/quarto-actions/publish@v2
         with:
