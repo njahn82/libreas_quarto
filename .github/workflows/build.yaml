@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -26,18 +26,14 @@ jobs:
           mkdir -p /usr/share/fonts/Atkinson_Hyperlegible
           cp -r fonts/ /usr/share/fonts/Atkinson_Hyperlegible/
           fc-cache -fv
-          
-      - uses: teatimeguest/setup-texlive-action@v3
-        with:
-          packages: |
-            babel
-            babel-german
-            hyperref
-            microtype
             
       - uses: quarto-dev/quarto-actions/setup@v2
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          # To install LaTeX to build PDF book 
+          tinytex: true 
+
           
       - name: Render and Publish
         if: github.event_name == 'push'
