@@ -27,5 +27,3 @@ format:
     theme: [sandstone, styles.scss]
     toc: true
     toc-location: right
-
-latex-tinytex: false
