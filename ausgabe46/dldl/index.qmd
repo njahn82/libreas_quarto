@@ -14,15 +14,8 @@ format:
     other-links:
       - text: EDOC HU Berlin
         href: https://doi.org/10.18452/31229
-  pdf:
-    keep-tex: true
-    fig_caption: yes
-    template: ../../header.sty
-format-links:
-  - text: PDF
-    href: main.pdf
-    icon: file-pdf
-pdf-engine: pdflatex
+  typst:
+     papersize: a4
 ---
 
 Beiträge von Karsten Schuldt (ks), Eva Bunge (eb), Ben Kaden (bk), Maxi
