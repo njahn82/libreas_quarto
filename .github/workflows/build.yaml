@@ -24,9 +24,15 @@ jobs:
           cp -r fonts/ /usr/share/fonts/Atkinson_Hyperlegible/
           fc-cache -fv
 
-      - uses: quarto-dev/quarto-actions/setup@v2
-      - run: |
-          quarto --version
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          # To install LaTeX to build PDF book 
+          tinytex: true 
+          # uncomment below and fill to pin a version
+          # version: SPECIFIC-QUARTO-VERSION-HERE
 
       - name: Productive - Render and Publish 
         if: github.event_name == 'push'
