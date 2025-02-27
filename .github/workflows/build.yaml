@@ -31,6 +31,7 @@ jobs:
         with:
           packages: |
             babel
+            babel-german
             hyperref
             microtype
             
