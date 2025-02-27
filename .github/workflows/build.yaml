@@ -36,8 +36,14 @@ jobs:
           # uncomment below and fill to pin a version
           # version: SPECIFIC-QUARTO-VERSION-HERE
 
+      - name: Ensure TinyTeX is in PATH
+        run: |
+          echo "$HOME/.TinyTeX/bin/$(uname -s | tr '[:upper:]' '[:lower:]')" >> $GITHUB_PATH
+
       - name: Install Babel for German language support
-        run: tlmgr install texlive-lang-german
+        run: |
+          tlmgr install texlive-lang-german
+          tlmgr install babel
 
       - name: Render and Publish
         if: github.event_name == 'push'
