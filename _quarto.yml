@@ -28,4 +28,4 @@ format:
     toc: true
     toc-location: right
     grid:
-      gutter-width: 5rem
+      gutter-width: 2.5rem
