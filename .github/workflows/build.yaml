@@ -38,8 +38,6 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tinytex: true
           
       - name: Render and Publish
         if: github.event_name == 'push'
