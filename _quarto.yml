@@ -13,9 +13,9 @@ website:
       - text: edoc pdf-Archiv
       - text: Autor*innen
       - icon: github
-        href: https://github.com/NASA-Openscapes
+        href: https://github.com/libreas
       - icon: mastodon
-        href: https://fosstodon.org/@openscapes
+        href: https://openbiblio.social/@libreas
  
 
   page-footer: 
