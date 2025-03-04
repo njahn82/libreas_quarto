@@ -128,8 +128,20 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#libreas-auf-quarto-test-repo" id="toc-libreas-auf-quarto-test-repo" class="nav-link active" data-scroll-target="#libreas-auf-quarto-test-repo">LIBREAS auf Quarto Test Repo</a></li>
+  <li><a href="#beispiele" id="toc-beispiele" class="nav-link" data-scroll-target="#beispiele">Beispiele</a></li>
+  <li><a href="#notizen" id="toc-notizen" class="nav-link" data-scroll-target="#notizen">Notizen</a>
+  <ul class="collapse">
+  <li><a href="#migration-ab-2014" id="toc-migration-ab-2014" class="nav-link" data-scroll-target="#migration-ab-2014">Migration ab 2014</a></li>
+  <li><a href="#migration-pre-2014-artikel" id="toc-migration-pre-2014-artikel" class="nav-link" data-scroll-target="#migration-pre-2014-artikel">Migration pre 2014 Artikel</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -153,10 +165,52 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<section id="libreas-auf-quarto-test-repo" class="level2">
+<h2 class="anchored" data-anchor-id="libreas-auf-quarto-test-repo">LIBREAS auf Quarto Test Repo</h2>
+</section>
+<section id="beispiele" class="level2">
+<h2 class="anchored" data-anchor-id="beispiele">Beispiele</h2>
+<ul>
+<li>DLDL mit Verlinkung auf EDOC und rendering mit Typst <a href="ausgabe46/dldl/">Beispiel</a></li>
+<li>Artikel mit Typst und Kopie lokaler pdf Datei <a href="ausgabe44/schuldt/">Beispiel</a></li>
+<li>Vor-2014-Artikel, die auf <code>htm</code> enden und automatisch weitergeleitet werden <a href="ausgabe22/09treude.htm"><code>ausgabe22/09treude.htm</code></a></li>
+</ul>
+</section>
+<section id="notizen" class="level2">
+<h2 class="anchored" data-anchor-id="notizen">Notizen</h2>
+<section id="migration-ab-2014" class="level3">
+<h3 class="anchored" data-anchor-id="migration-ab-2014">Migration ab 2014</h3>
+<ul>
+<li>Wir haben pdf Dateien als master.pdf / main.pdf verlinkt. Diese sollten wir mitführen oder per redirect auf das html leiten.</li>
+</ul>
+</section>
+<section id="migration-pre-2014-artikel" class="level3">
+<h3 class="anchored" data-anchor-id="migration-pre-2014-artikel">Migration pre 2014 Artikel</h3>
+<section id="artikel-enden-mit-htm-was-quarto-nicht-unterstützt" class="level4">
+<h4 class="anchored" data-anchor-id="artikel-enden-mit-htm-was-quarto-nicht-unterstützt">Artikel enden mit <code>htm</code>, was Quarto nicht unterstützt</h4>
+<ul>
+<li>pandoc muss genutzt werden um htm in markdown zu konvertieren</li>
+<li>anschließend in qmd umbenennen (vielleicht muss das auch nicht)</li>
+<li>Es muss ein redirect über <a href="https://quarto.org/docs/websites/website-navigation.html#redirects"><code>aliases</code></a> eingerichtet werden, der auf eine html Datei weiterleitet.</li>
+</ul>
+</section>
+<section id="fußnote" class="level4">
+<h4 class="anchored" data-anchor-id="fußnote">Fußnote</h4>
+<ul>
+<li>Fußnoten bleiben so wie sind, außer wir schreiben ein Skript</li>
+</ul>
+</section>
+<section id="metadaten" class="level4">
+<h4 class="anchored" data-anchor-id="metadaten">Metadaten</h4>
+<ul>
+<li>YAML header muss anhand neuer tags angepasst werden</li>
+<li>EDOC DOIs können nun nachgetragen werden</li>
+</ul>
 
 
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
