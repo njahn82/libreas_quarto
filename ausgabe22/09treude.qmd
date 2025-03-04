@@ -1,0 +1,274 @@
+---
+citation:
+  container-title: "LIBREAS. Library Ideas"
+  volume: 22
+license: "CC BY"
+author:
+  name: "Linda Treude"
+  orcid: "0000-0002-4620-7571"
+doi: https://doi.org/10.18452/9035
+title: "Das Problem der Konzeptdefinition in der Wissensorganisation -- Über einen missglückten Versuch der Kl&auml;rung"
+subtitle: "Rezension zu: Alon Friedman, Richard P. Smiraglia, (2013): Nodes and arcs: concept map, semiotics, and knowledge organization. In: Journal of Documentation, Vol. 69/1, S.27-48. DOI: 10.1108/00220411311295315"
+date: 2013-08-16
+aliases:
+  - 09treude.htm
+format:
+  html:
+    toc: false
+---
+Alon Friedman und Richard P. Smiraglia kündigen in ihrem aktuellen
+Artikel „Nodes and arcs: concept map, semiotics, and knowledge
+organization" an, eine „empirical demonstration of how the domain \[of
+knowledge organisation\] itself understands the meaning of a concept"
+durchzuführen. Die Klärung des Konzeptbegriffs ist ein begrüßenswertes
+Vorhaben, das die Autoren in einer empirischen Untersuchung von *concept
+maps* (also Konzeptdiagrammen) aus dem Bereich der Wissensorganisation
+nachvollziehen wollen. Beschränkte sich Friedman 2011 in seinem Artikel
+„Concept theory and semiotics in knowledge organization" \[[]{#fn01b}[Fn
+01](#fn01)\] noch ausschließlich auf Sprache als Medium im
+Zeichenprozess, bezieht er sich nun auf Visualisierungen als
+Repräsentationsform und scheint somit seinen Ansatz um den Aspekt der
+Bildlichkeit zu erweitern. Zumindest erwartet man dies nach der Lektüre
+der Beschreibung des aktuellen Vorhabens von Friedman und Smiraglia, das
+-- wie die Autoren verkünden -- auf einer semiotischen Grundlage
+durchgeführt worden sei.
+
+Der Untersuchungsgegenstand wird auf Tagungsbände begrenzt. Diese werden
+als das Format benannt, welches die meisten *concept maps* beinhaltet,
+weswegen in der Untersuchung Tagungsbände, nämlich von 1990-2010 der
+ISKO \[[]{#fn02b}[Fn 02](#fn02)\] sowie der jährlichen
+Klassifikationsworkshops der SIG/CR \[[]{#fn03b}[Fn 03](#fn03)\]
+berücksichtigt werden.
+
+Die Autoren definieren *concept maps* als eine visuelle Repräsentation
+der Relation zwischen mehreren Begriffen. Grundlegend sei die Beziehung
+von *nodes* (Knotenpunkte) und *arcs* (Verbindungen), wobei
+
+> „\[t\]he Node had to be captured by text, image, and links that
+> illustrate the relationship between other nodes in the map, and had to
+> capture the anchors of conceptual clusters in the very same map. The
+> Arcs represent the type of relationship between the nodes, serving as
+> verbal relationship indicators." (S.36).
+
+Die *concept maps* werden generell als Zeichen aufgefasst und daher
+dient das, was die Autoren ‚Semiotik' nennen, als theoretische
+Grundlage. Dass es sich bei den *concept maps* offensichtlich um
+*diagrammatische* Zeichen handelt, findet allerdings mit keinem Wort
+Erwähnung. Ihr Verständnis von Zeichentheorie legen die Autoren in ihrem
+recht konfusen Theorieteil (Kap. 1/2, bis S. 37) dar, dessen Auswahl an
+Primärquellen beispielsweise zur Begriffstheorie in der Philosophie
+(unter Kap. 1.1) vollkommen wahllos erscheint. Warum wird ausgerechnet
+auf die Philosophie Freges und auf Barthes' eingegangen und nicht auf
+andere Theorien? Und warum wird im Falle Barthes' nicht auf seine
+einschlägige Publikation „Elemente der Semiologie" \[[]{#fn04b}[Fn
+04](#fn04)\] Bezug genommen, sondern stattdessen einen Text
+\[[]{#fn05b}[Fn 05](#fn05)\], der rein gar nichts mit dem Thema zu tun
+hat, sondern nur zu einer oberflächlichen Klassifizierung
+philosophischer Traditionen („analytisch"/„kontinental") taugt? Dies
+wird weder begründet noch spielt es jemals im weiteren Verlauf des
+Artikels oder der durchgeführten Untersuchung *irgendeine* Rolle. Hier
+wird ein Zusammenhang von philosophischer Diskussion und empirischer
+Untersuchung bloß *suggeriert*. Man bekommt den Eindruck, dass hier
+nicht mit den Primärquellen, sondern meist mit Handbüchern gearbeitet
+wurde.
+
+Weiter geht es mit stark vereinfachten und an einigen Stellen
+zweifelhaften Ausführungen zur Semiotik, in denen der Eindruck bestätigt
+wird, dass zwischen Theorieteil und Durchführung kein echter
+Zusammenhang besteht. Die ‚Theorie' stützt sich hier hauptsächlich auf
+eine Einführung in die Semiotik (*Semiotics for Beginners*
+\[[]{#fn06b}[Fn 06](#fn06)\]) und mündet in, in diesem Kontext kaum
+verständlichen Sätzen und Kryptozitaten wie:
+
+> „Expression -- verbal, written, or otherwise -- is the awareness of
+> awareness, which is the Secondness of Firstness, a Thirdness." (S. 32)
+> \[[]{#fn07b}[Fn 07](#fn07)\]
+
+Von einer Veröffentlichung in einem *(double blind) peer reviewed
+journal* (!) \[[]{#fn08b}[Fn 08](#fn08)\] hätte man solche formalen und
+inhaltlichen Unzulänglichkeiten nicht erwartet.
+
+Die 344 untersuchten Konzeptdiagramme sollen nun entweder dem
+Peirceschen Zeichenmodell zugeordnet werden, was konkret bedeute, dass
+
+> „under the Peirceian triadic classification, the map's central node
+> had to contain three arcs that exemplified Representamen, Object and
+> Interpretant" (S. 36)
+
+oder eben mit dem Saussureschen Zeichenbegriff in Verbindung gebracht
+werden, bei dem
+
+> „the central sign found in the maps had to be 'dyadic', consisting of
+> 'signifier', the form that the sign takes, and 'signified', the
+> concept it represents in the spoken language." (S. 36)
+
+Statt von dyadischen und triadischen Modellen zu sprechen, was die
+Autoren offensichtlich meinen, werden die Modelle mit den Theorien von
+Saussure und Peirce identifiziert, die zwar durchaus eher dyadische
+(Saussure) bzw. triadische (Peirce) Modelle benutzen, deren
+Zeichentheorie als ganze aber mit Sicherheit nicht darauf beschränkt
+werden kann.
+
+Eine dritte Option sei, so die Autoren, dass den *concept maps* gar kein
+„semiotisches Konzept" zugrunde gelegt werden kann, was vor allem bei
+den genannten Referenzautoren gar nicht möglich ist. Was sie eigentlich
+meinen ist wohl: Sie können weder dyadischen noch triadischen Modellen
+zugeordnet werden.
+
+Nicht ein Gedanke wird darauf verwendet, die Fälle außerhalb des
+willkürlich gesetzten Rasters zu beschreiben. Ihr Beispiel für eine
+„nicht-semiotische" *concept map* (Fig. 9) deutet darauf hin, dass sie
+mit eher bildlichen und weniger schematischen Darstellungen nichts
+anfangen können. Dadurch stellt sich abermals die Frage welcher Begriff
+von Semiotik ihrem Ansatz zu Grunde liegt.
+
+Das Verständnis der Autoren, so es überhaupt ersichtlich wird, scheint
+auf einem rein sprachlichen Begriff von Semiotik zu beruhen. Das hieße
+aber, dass als Zeichen nur sprachliche Phänomene gelten, was ganz
+offensichtlich falsch ist und den Theorien von Peirce wie auch von
+Saussure widerspricht. Generell ist für eine solche Untersuchung eine
+Vereinfachung bzw. eine schematisierte Sichtweise legitim, wenn dies in
+irgendeiner Form zielgerichtet geschieht. Hier bekommt der Leser
+allerdings den Eindruck, dass die Zuordnung zu dem Saussureschen oder
+Peirceschen Zeichenbegriff keinerlei Erkentnisgewinn bietet. Wozu also
+das *name-dropping*?
+
+Was wird nun *tatsächlich* untersucht und welche Ergebnisse liefert
+diese Untersuchung? In der Studie wird lediglich das in den *concept
+maps* benutzte Vokabular der Autoren aus dem Bereich der
+Wissensorganisation untersucht und zwar konkret welche Begriffe wie
+häufig in den Visualisierungen benutzt wurden. Diese seien in der
+sogenannten Peirce-Kategorie „knowledge" und „organization" : „
+\[K\]nowledge', appearing in 12 concept maps, \[\...\] \[t\]he second
+most-used term was ‚organization', which occurs in ten concept maps" (S.
+41). \[[]{#fn09b}[Fn 09](#fn09)\]
+
+Die häufigsten Begriffe in der Saussure-Kategorie seien „system",
+„document" und „index" (S. 41).
+
+Der einzige Versuch einer Kontextualiserung der Ergebnisse besteht dann
+aus der Feststellung, dass es sich bei dem wissenschaftlichen Bereich
+der Wissensorganisation um eine „tightly-focused domain" handele (S.
+45), da eine hohe Konzentration auf wenige Begriffe nachgewiesen werden
+konnte. Ein weiteres ‚Ergebnis' dieser Untersuchung ist, dass *concept
+maps* am häufigsten von Professoren (70,1 %) aus den USA (39,2 %)
+genutzt werden.
+
+Dies ist womöglich darauf zurück zu führen, dass es sich bei den
+allermeisten Autoren der untersuchten Tagungsbände um Professoren aus
+den USA handelt (Achtung Ironie).
+
+Diese Studie wurde übrigens 2008 bereits von Alon Friedman in kürzerer
+und klarerer Form in dem Aufsatz „Concept Mapping in Knowledge
+Organization through a Semiotic Lens" \[[]{#fn10b}[Fn 10](#fn10)\]
+vorgestellt. Dort beschreibt er die vier Schritte, die in der
+Untersuchung durchgeführt wurden, nämlich die Feststellung der
+Nationalität und des (beruflichen/wissenschaftlichen) Status der
+Autoren, Zuordnung zum Saussureschen und Peirceschen Zeichenbegriff, das
+Zählen der Worthäufigkeit und „the most-used mapping formats"
+\[[]{#fn11b}[Fn 11](#fn11)\]. Das mündet in die recht konkrete
+Forschungsfrage, ob ein Zusammenhang zwischen Nationalität, Stellung und
+des „specific conceptual process that an author uses" existiert. Falls
+man sich für diese Untersuchung der Terminologie im Bereich der
+Wissensorganisation interessiert, so lese man den genannten Artikel von
+2008. Die bescheidenere Formulierung „through a semiotic lense" hätte
+auch dem Titel des aktuellen Artikels besser zu Gesicht gestanden.
+
+Was nun in der aktuellen Untersuchung hinzukommt, ist die Analyse der
+häufigsten Begriffe mittels der Software *Wordstat*, die auf einer
+Abstraktion der Begriffe basiert (S. 41 und siehe Table III. auf S. 42).
+Dafür entwickelte Smiraglia eigens für „domain analysis of ISKO
+proceedings" eine Taxonomie \[[]{#fn12b}[Fn 12](#fn12)\]. Diese
+Meta-Level-Analyse könnte vielleicht interessant sein. Leider erfährt
+man weder etwas zur Funktionsweise der Software noch genaueres zu der
+Taxonomie. An genau dieser Stelle befindet sich jedoch die
+‚Erfindungshöhe' des Artikels. Es ist also umso bedauerlicher, dass
+darüber nichts verraten wird. Der Untersuchung der Worthäufigkeit folgt
+letztlich auch keine semantische Analyse. *Die anfangs gestellte Frage*
+nach der Bedeutung des Konzeptbegriffs in der *community* der
+Wissensorganisation wird *definitiv nicht beantwortet*.
+
+Aufgrund des Titels hätte man sogar glauben können, dass es sich um
+einen Versuch handelt, die Semiotik für die Untersuchung von
+Wissensorganisation fruchtbar zu machen, was ein hochinteressantes
+Vorhaben gewesen wäre. Auch das Erscheinen in einer auf Theoriebildung
+spezialisierten Zeitschrift könnte dies vermuten lassen. In diesem Fall
+aber muss man sagen, dass die theoretische Diskussion schon fast
+behindert, da *ad absurdum* geführt wird. Die *nodes* und *arcs*, die
+immerhin titelgebend für den Artikel sind, werden weder in der
+Untersuchung noch in deren Auswertung jemals wieder erwähnt. Der
+bildlichen Dimension der *concept maps* in der Untersuchung kommt also
+hier keinerlei Bedeutung zu. Dies führt zu der Frage, warum ausgerechnet
+*Visualisierungen* von Konzepten untersucht wurden. Für eine
+terminologische Analyse wären ebenso gut -- eventuell sogar noch besser
+-- z.B. die Abstracts von Artikeln geeignet gewesen.
+
+Zusammenfassend sei festgehalten, dass der Artikel leider nichts zur
+Antwort auf die Frage beiträgt, wie Konzepte im Bereich der
+Wissensorganisation verstanden werden und rein gar nichts mit dem Thema
+Semiotik in der Wissensorganisation zu tun hat. Vor allem der dünne
+Theorieteil dient nur dem willkürlichen anmutenden Anreichern der
+durchgeführten Untersuchung und ist somit nicht lesenswert.
+
+------------------------------------------------------------------------
+
+### Fußnoten
+
+[]{#fn01} \[01\] Friedman, Alon; Thellefsen, Martin (2011): Concept
+theory and semiotics in knowledge organization. In: Journal of
+Documentation, Vol. 67/4, S. 644-674. \[[zurück](#fn01b){.back}\]
+
+[]{#fn02} \[02\] ISKO = International Society for Knowledge Organization
+\[[zurück](#fn02b){.back}\]
+
+[]{#fn03} \[03\] IG/CR = Special Interest Group for Classification
+Research der American Society for Information Science and Technology
+\[[zurück](#fn03b){.back}\]
+
+[]{#fn04} \[04\] Barthes, Roland: Eléments de sémiologie. In:
+Communications, No. 4, 1964, S. 91-135. Volltext verfügbar über
+persee.fr:
+<http://www.persee.fr/web/revues/home/prescript/article/comm_0588-8018_1964_num_4_1_1029>
+\[[zurück](#fn04b){.back}\]
+
+[]{#fn05} \[05\] Barthes, Roland: The Pleasure of Text. New York: Hill
+and Wang, 1975 \[[zurück](#fn05b){.back}\]
+
+[]{#fn06} \[06\] In der referenzierten Fassung ist die Ausgabe obendrein
+nicht über den Worldcat verifizierbar. Gemeint könnte sein: Chandler,
+David: Semiotics: The Basics. Oxford: Routledge, 2002
+\[[zurück](#fn06b){.back}\]
+
+[]{#fn07} \[07\] Dabei handelt es sich um ein marginal geändertes und
+nicht gekennzeichnetes Originalzitat Peirce' aus den *Letters to Lady
+Welby*. \[[zurück](#fn07b){.back}\]
+
+[]{#fn08} \[08\] Siehe
+<http://www.emeraldinsight.com/products/journals/author_guidelines.htm?id=jd>.
+\[[zurück](#fn08b){.back}\]
+
+[]{#fn09} \[09\] Das fehlerhafte Setzen der Anführungsstriche jeweils
+nach den Kommata in dem Zitat wurde von der Autorin berichtigt.
+\[[zurück](#fn09b){.back}\]
+
+[]{#fn10} \[10\] Friedman, Alon: "Concept mapping through a semiotics
+lens." In: The 33rd Meeting of the Semiotics Society of America,
+Conference in Houston, TX. 2008. Online verfügbar unter:
+<http://cmc.ihmc.us/cmc2008papers/cmc2008-p106.pdf>.
+\[[zurück](#fn10b){.back}\]
+
+[]{#fn11} \[11\] <http://cmc.ihmc.us/cmc2008papers/cmc2008-p106.pdf>,
+Erste Seite. \[[zurück](#fn11b){.back}\]
+
+[]{#fn12} \[12\] Siehe Smiraglia, Richard P.: ISKO 11's diverse
+bookshelf. An Editorial. In: Knowledge Organization, Vol. 38, S.179-86.
+\[[zurück](#fn12b){.back}\]
+
+------------------------------------------------------------------------
+
+**Linda Treude (M.A.)** studierte Bibliotheks- und
+Informationswissenschaft sowie Kunstgeschichte an der
+Humboldt-Universität zu Berlin. Sie promoviert zum Thema Schrift und
+Bild, speziell zur Darstellbarkeit logischer und semantischer Relationen
+in digitalen Netzen. Von 2011 bis Frühjahr 2013 war sie
+Projektmitarbeiterin beim Computer- und Medienservice der HU Berlin.

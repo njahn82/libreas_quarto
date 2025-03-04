@@ -2,6 +2,33 @@
 title: "libreas_quarto"
 ---
 
-This is a Quarto website.
+## LIBREAS auf Quarto Test Repo
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Beispiele
+
+- DLDL mit Verlinkung auf EDOC und rendering mit Typst [Beispiel](ausgabe46/dldl/)
+- Artikel mit Typst und Kopie lokaler pdf Datei [Beispiel](ausgabe44/schuldt/)
+- Vor-2014-Artikel, die auf `htm` enden und automatisch weitergeleitet werden [`ausgabe22/09treude.htm`](ausgabe22/09treude.htm)
+
+## Notizen
+
+### Migration ab 2014
+
+- Wir haben pdf Dateien als master.pdf / main.pdf verlinkt. Diese sollten wir mitführen oder per redirect auf das html leiten.
+
+### Migration pre 2014 Artikel
+
+#### Artikel enden mit `htm`, was Quarto nicht unterstützt
+
+- pandoc muss genutzt werden um htm in markdown zu konvertieren
+- anschließend in qmd umbenennen (vielleicht muss das auch nicht)
+- Es muss ein redirect über [`aliases`](https://quarto.org/docs/websites/website-navigation.html#redirects) eingerichtet werden, der auf eine html Datei weiterleitet. 
+
+#### Fußnote
+
+- Fußnoten bleiben so wie sind, außer wir schreiben ein Skript
+
+#### Metadaten
+
+- YAML header muss anhand neuer tags angepasst werden
+- EDOC DOIs können nun nachgetragen werden
