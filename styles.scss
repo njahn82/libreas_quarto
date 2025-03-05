@@ -7,6 +7,10 @@ $web-font-path: "No";
 
 $font-size-root: 18px !default;
 
+.navbar {
+  margin-bottom: 20px;
+}
+
 #title-block-header.quarto-title-block.default .quarto-title h1.title {
   margin-bottom: 0.5rem;
 }
