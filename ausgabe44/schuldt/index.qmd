@@ -2,7 +2,7 @@
 citation:
   container-title: "LIBREAS. Library Ideas"
   volume: 44
-license: "CC BY"
+license: "CC BY 3.0"
 doi: "https://doi.org/10.18452/28267"
 date: "2023-12-22"
 author: 
